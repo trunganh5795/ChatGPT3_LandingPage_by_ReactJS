@@ -1,0 +1,52 @@
+.cta {
+  font-family: var(--font-family);
+  display: flex;
+  background: var(--gradient-text);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10.7236px;
+  padding: 3rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta__text p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+.cta__text h1 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  color: #000000;
+}
+.cta__button button {
+  background: #000000;
+  border-radius: 40px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+}
+.cta__button button .gradient__text {
+  background: #ffffff;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+@media screen and (max-width: 1120px) {
+  .cta__text {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .cta__text {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .cta {
+    flex-direction: column;
+  }
+}

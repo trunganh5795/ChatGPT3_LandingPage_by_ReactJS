@@ -1,0 +1,20 @@
+.blog-item {
+  background: var(--color-footer);
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-item img {
+  width: 100%;
+  background-color: var(--color-bg);
+}
+.blog-item__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  flex: 1;
+}
+.blog-item__content div:first-child {
+  margin-bottom: 5rem;
+}
